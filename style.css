@@ -1,0 +1,70 @@
+a {
+    color: #2176FF;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.nav-link:hover {
+    color: #2176FF;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.btn:hover{
+    text-decoration: none;
+    background-color: rgb(162, 159, 221);
+    box-shadow: none;
+    border: 1px solid white;
+    /* border: none; */
+    color: black;
+    /* transition: background 1s ease-out; */
+}
+
+.btn {
+    font: Raleway sans-serif;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    box-shadow: 5px 10px rgba(10, 10, 10, 0.7);
+}
+
+.btn:active{
+    box-shadow: none;
+    border: 1px solid white;
+    background-color: rgb(76, 96, 225);
+    border-radius: 5px;
+    color: white;
+}
+
+.activity{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.activity:hover{
+    border: 6px solid #0062ff;
+    /* border-radius: 5px; */
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 250%;
+    background-color: #4f8bec;
+    /* transition: color 1s ease-in, background-color 2s ease-out; */
+}
+
+.activity:active{
+    border: 6px solid #3782fc;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 250%;
+    background-color: #004ac1;
+    /* transition: color 1s ease-in, background-color 2s ease-out; */
+}
