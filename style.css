@@ -32,7 +32,11 @@ a:hover {
     padding: 10px 30px;
     color: white;
     box-shadow: 5px 10px rgba(10, 10, 10, 0.7);
+<<<<<<< HEAD
     background-color: rgba(69, 88, 162, 0.5);
+=======
+    background-color: white;
+>>>>>>> 8c7ff7a26d54c27ed19bf01fc13a8a8cc7292a6b
 }
 
 .btn:active{
